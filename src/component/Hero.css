@@ -1,0 +1,30 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:linear-gradient(70deg, rgba(198, 86, 86, 0.862), rgba(71, 103, 215, 0.851), rgba(50, 183, 50, 0.884),rgba(180, 124, 3, 0.812),rgba(255, 255, 255, 0.597),rgba(255, 255, 123, 0.778),rgb(218, 90, 111),rgba(128, 0, 128, 0.888));
+}
+.imgBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 5.5em;
+  height: 80vh;
+  width: 100%;
+  overflow: scroll;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.imgBox::-webkit-scrollbar {
+  display: none;
+}
+
+.btn{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+

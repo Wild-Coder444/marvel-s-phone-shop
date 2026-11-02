@@ -1,0 +1,12 @@
+img {
+  height: 300px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow:0px 0px 10px 2px rgb(0, 0, 0);
+  transition: all 0.1s ease-in;
+}
+img:hover{
+    transform: skew(5deg);
+
+}
